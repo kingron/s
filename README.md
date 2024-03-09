@@ -10,11 +10,11 @@ If you don't want to compile it, please download s.exe from release folder, a pr
 
 How to compile
 ----
-1. Please clone/download project files.
+1. Clone/download project files.
 2. Compile with [TCC](https://download.savannah.gnu.org/releases/tinycc/), recommend
-## Download tcc-0.9.27-win32-bin.zip and unzip
-## Dwonload winapi-full-for-0.9.27.zip, and overwrite include folder by zip's include folder
-## Run `tcc s.c` to build
+    - Download tcc-0.9.27-win32-bin.zip and unzip
+    - Dwonload winapi-full-for-0.9.27.zip, and overwrite include folder by zip's include folder
+    - Run `tcc s.c` to build
 3. Compile with Mirosoft Compiler: `cl s.c`
 3. Compile with gcc: `gcc s.c -lws2_32 -lIphlpapi`
 
