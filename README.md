@@ -15,7 +15,7 @@ How to compile
     - Download tcc-0.9.27-win32-bin.zip and unzip
     - Dwonload winapi-full-for-0.9.27.zip, and overwrite include folder by zip's include folder
     - Run `tcc s.c` to build
-3. Compile with Mirosoft Compiler: `cl s.c`
+3. Compile with Mirosoft Compiler: `cl /MD s.c`
 3. Compile with gcc: `gcc s.c -lws2_32 -lIphlpapi`
 
 Usage

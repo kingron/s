@@ -1,4 +1,4 @@
-#pragma comment(linker, "/subsystem:console /FILEALIGN:0x200 /opt:nowin98 /IGNORE:4078 /MERGE:.rdata=.text /MERGE:.data=.text /section:.text,ERW")
+#pragma comment(linker, "/subsystem:console /ALIGN:0x200 /MERGE:.rdata=.text /MERGE:.data=.text /section:.text,ERW")
 
 #define _WIN32_WINNT    0x0500
 #include "winsock2i.h"
