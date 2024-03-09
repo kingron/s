@@ -9,9 +9,14 @@ Highly recommend that you download source code and recompile yourself.
 If you don't want to compile it, please download s.exe from release folder, a pre-compiled executable file include yet.
 
 How to compile
----
+----
 1. Please clone/download project files.
-2. Open project by Visual Studio 2015, C++ & MFC components should be installed.
+2. Compile with [TCC](https://download.savannah.gnu.org/releases/tinycc/), recommend
+## Download tcc-0.9.27-win32-bin.zip and unzip
+## Dwonload winapi-full-for-0.9.27.zip, and overwrite include folder by zip's include folder
+## Run `tcc s.c` to build
+3. Compile with Mirosoft Compiler: `cl s.c`
+3. Compile with gcc: `gcc s.c -lws2_32 -lIphlpapi`
 
 Usage
 ---
